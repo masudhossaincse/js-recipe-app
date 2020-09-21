@@ -129,6 +129,7 @@ header button {
     cursor: pointer;
 }
 
-.meal-body .fav-btn.active {
-    color: rebeccapurple;
+.meal-body .fav-btn .active {
+    background-color: rgb(106, 14, 199);
+    color: green;
 }
