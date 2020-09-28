@@ -154,3 +154,43 @@ header button {
 .meal-body .fav-btn.active {
     background-color: rgb(106, 14, 199);
 }
+
+.popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.popup-container.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.popup {
+    background-color: white;
+    max-width: 500px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.meal-info h1 {
+    text-align: center;
+}
+
+.meal-info .close-popup {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1.5rem;
+    right: 0.5rem;
+}
